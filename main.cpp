@@ -1,225 +1,281 @@
 #include <iostream>
-#include <sstream>
+using namespace std;
 int main() {
-   // Problem 1
-   //    int num1, num2, num3, num4, num5;
-   //    cout << "enter: " << endl;
-   //    cin>>num1;
-   //    cin>>num2;
-   //    cin>>num3;
-   //    cin>>num4;
-   //    cin>>num5;
-   //    std::cout<< "sum is " << num5 + num1 + num2 + num3 + num4;
-   //    return 0;
+   // PROBLEM 1
+   // double number;
+   // cout << "Please enter a number: " << endl;
+   // cin >> number;
+   // if (number < 0) {
+   //    cout << "The number is negative." << endl;
+   // }
+   // else {
+   //    cout << "the number is positive." << endl;
    // }
 
-   // Porblem 2
-   // int Student_ID;
-   // float Student_GPA;
-   // short Student_Year_of_Study;
-   // double Student_Study_fee;
+   // problem 2
+   // int number;
+   // cout << "Enter a number: " << endl;
+   // cin >> number;
    //
-   // cout << "Enter Student ID: " << endl;
-   // cin >> Student_ID;
-   // cout << "Enter Student GPA: " << endl;
-   // cin >> Student_GPA;
-   // cout << "Enter Student Year of Study: " << endl;
-   // cin >> Student_Year_of_Study;
-   // cout << "Enter Student Study fee: " << endl;
-   // cin >> Student_Study_fee;
-   //
-   // std::cout << "Enter Student ID: " << Student_ID << endl;
-   // std::cout << "Enter Student GPA: " << Student_GPA << endl;
-   // std::cout << "Enter Student Year of Study: " << Student_Year_of_Study << endl;
-   // std::cout << "Enter Student Study fee: " << Student_Study_fee<< endl;
+   // if (number % 2 == 0) {
+   //    cout << "even number" << endl;
+   // }
+   // if (number % 2 != 0) {
+   //    cout << "odd number" << endl;
+   // }
 
-
-
-
-   //problem 3
-   // double celcius, fahrenheit;
-   // cout << "Enter the temperature in Celcius: ";
-   // cin >> celcius;
-   // fahrenheit = (celcius * 1.8) + 32;
-   // cout << "Fahrenheit: " << fahrenheit << endl;
-
+   // problem 3
+   // int a, b;
+   // cout << "enter first number: " << endl;
+   // cin >> a;
+   // cout << "enter second number: " << endl;
+   // cin >> b;
+   // if (a > b) {
+   //    cout << "largest number is " << a << endl;
+   // }
+   // else {
+   //    cout << "largest number is " << b << endl;
+   // }
 
    // problem 4
-   // double price;
-   // int quantity;
-   // cout << "Please enter the price: ";
-   // cin >> price;
-   // cout << endl << "Please enter the quantity: ";
-   // cin >> quantity;
-   // std::cout << "Total cost is " << price * quantity << endl;
+   // int a, b, c;
+   // cout << "enter first number: ";
+   // cin >> a;
+   // cout << "enter second number: ";
+   // cin >> b;
+   // cout << "enter third number: ";
+   // cin >> c;
+   // if (a < b) {
+   //    if (c < b) {
+   //       cout << "largest number is " << b << endl;
+   //    }
+   // }
+   // if (b < a) {
+   //    if (c < a) {
+   //       cout << "largest number is " << a << endl;
+   //    }
+   // }
+   // if (a < c) {
+   //    if (b < c) {
+   //       cout << "largest number is " << c << endl;
+   //    }
+   // }
 
 
    // problem 5
-   // int father_age, mother_age, son_age, daughter_age;
-   // cout << "Enter your father's age: " << endl;
-   // cin >> father_age;
-   // cout << "Enter your mother's age: " << endl;
-   // cin >> mother_age;
-   // cout << "Enter your son's age: " << endl;
-   // cin >> son_age;
-   // cout << "Enter your daughter's age: " << endl;
-   // cin >> daughter_age;
-   // std::cout << "Average age is : " << father_age + son_age + mother_age + daughter_age / 4 << endl;
-
+   // int year;
+   // cout<<"Enter Year: " <<endl;
+   // cin>>year;
+   // if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+   //    cout<<"Year is a leap year."<<endl;
+   // }
+   // else {
+   //    cout<<"Year is not a leap year."<<endl;
+   // }
 
    // problem 6
-   // int length, width;
-   // cout << "Please enter a length: ";
-   // cin >> length;
-   // cout << "Please enter a width: ";
-   // cin >> width;
-   // std::cout << "the area of the rectangle is : " << length * width << endl;
-   // std::cout << "the perimeter of the rectangle is : " << 2 * (length + width) << endl;
-
+   // int speed;
+   // cout << "Please enter your speed: " << endl;
+   // cin >> speed;
+   // if (speed < 20) {
+   //    cout << "too slow";
+   // }
+   // else {
+   //    if (speed > 80) {
+   //       cout << "too fast";
+   //    }
+   //    else {
+   //       cout << "just right";
+   //    }
+   // }
 
    // problem 7
-   // int dividend, divisor, quotient, remainder;
-   // cout << "Enter dividend: " << endl;
-   // cin >> dividend;
-   // cout << "Enter divisor: " << endl;
-   // cin >> divisor;
-   // quotient = dividend / divisor;
-   // remainder = dividend % divisor;
-   // std::cout << "the quotient of the division is: " << quotient << endl;
-   // std::cout << "the remainder of the division is: " << remainder << endl;
-
+   // int mark;
+   // cout << "Please enter your mark: " << endl;
+   // cin >> mark;
+   // if (mark < 50) {
+   //    cout << "fail";
+   // }
+   // else {
+   //    cout << "pass";
+   // }
 
    // problem 8
-   // int USD, exchange_rate_of_usd, exchange_rate_of_ruble;
-   // cout<<"Enter USD: " <<endl;
-   // cin>>USD;
-   // cout<<"Enter exchange rate of usd: " <<endl;
-   // cin>>exchange_rate_of_usd;
-   //
-   // cout<<"Enter exchange rate of ruble: " <<endl;
-   // cin>>exchange_rate_of_ruble;
-   //
-   //
-   // std::cout << "the equivalent amount is UZS: " << USD * exchange_rate_of_usd << endl;
-   // std::cout << "the equivalent amount is RUBS: " << USD * exchange_rate_of_ruble << endl;
+   // int number;
+   // cout << "Enter a number: " << endl;
+   // cin >> number;
+   // if (number < 0) {
+   //    cout << "negative number" << endl;
+   // }
+   // if (number == 0) {
+   //    cout << "zero" << endl;
+   // }
+   // if (number > 0) {
+   //    cout << "positive" << endl;
+   // }
+
 
    // problem 9
-   // int radius;
-   // cout << "Enter radius: " << endl;
-   // cin >> radius;
-   // std::cout << "surface area of circle = " << radius * radius * M_PI << endl;
+   // char a;
+   // char g, y, r;
+   // cout << "Please enter command: ";
+   // cin >> a;
+   // if (a == 'g') {
+   //    cout << "Go!" << endl;
+   // }
+   // if (a == 'y') {
+   //    cout << "Get ready!" << endl;
+   // }
+   // if (a == 'r') {
+   //    cout << "Stop!" << endl;
+   // }
+   // default:
+   //    cout << "Invalid command!" << endl;
+
 
    // problem 10
-   // int radius, height;
-   // cout << "Enter radius: " << endl;
-   // cin >> radius;
-   // cout << "Enter height: " << endl;
-   // cin >> height;
-   // std::cout << "Volume of circle is: " << radius * height * radius * M_PI<< endl;
+   // int grade;
+   // cout << "Please enter your grade: " << endl;
+   // cin >> grade;
+   // if (grade >= 90 && grade <= 100) {
+   //    cout << "A";
+   // }
+   // else if (grade >= 80 && grade <= 89) {
+   //    cout << "B";
+   // }
+   // else if (grade >= 70 && grade <= 79) {
+   //    cout << "C";
+   // }
+   // else if (grade >= 60 && grade <= 69) {
+   //    cout << "D";
+   // }
+   // else {
+   //    cout << "F";
+   // }
+
 
    // problem 11
-        // int distance, time;
-        // std::cout<<"Enter distance: " << std::endl;
-        // std::cin>>distance;
-        // std::cout<<"Enter time: " << std::endl;
-        // std::cin>>time;
-        //
-        // std::cout<<"velocity = " << (distance / time)<< "km/h" << " and " << ((distance / time) / 1.609344) << " mile/h"<< std::endl;
+   // int a, b;
+   // cout << "Please enter the first number: " << endl;
+   // cin >> a;
+   // cout << "Please enter the second number: " << endl;
+   // cin >> b;
+   // if ((a % b) < 1) {
+   //    cout << a << " is divisible by " << b << endl;
+   // }
+   // else {
+   //    cout << a << " is  not divisible by " << b << endl;
+   // }
 
 
-        // problem 12
-        // int total_minuts;
-        // cout << "Enter total minutes: " << endl;
-        // cin >> total_minuts;
-        // std::cout << "Total time: " << total_minuts / 60 << " hours " << total_minuts % 60 << " minutes"  << endl;
+   // problem 12
+   // int a, b, c;
+   // cout << "enter 1: " << endl;
+   // cin >> a;
+   // cout << "enter 2: " << endl;
+   // cin >> b;
+   // cout << "enter 3: " << endl;
+   // cin >> c;
+   // if (a + b + c == 180) {
+   //    cout << "trianfle is valid";
+   // }
+   // else {
+   //    cout << "trianfle is not valid";
+   // }
+
+    // problem 13
+    // char a;
+    // cout << "Please enter a character: " << endl;
+    // cin >> a;
+    // if (a >= 'a' && a <= 'z') {
+    //    cout << "lowercase alphabet";
+    // }
+    // else if (a >= 'A' && a <= 'Z') {
+    //    cout << "uppercase alphabet";
+    // }
+    // else {
+    //    cout << "it is not alphabet";
+    // }
 
 
-        // problem 13
-        // int price, cost;
-        // cout<<"Enter Price : ";
-        // cin>>price;
-        // cout<<"Enter Cost : ";
-        // cin>>cost;
-        // std::cout << "break even point: " << 10000 / (price - cost) << endl;
-
-        // problem 14
-        // int basic_salary, tax_percentage;
-        // cout << "Enter your salary: " << endl;
-        // cin >> basic_salary;
-        // cout << "Enter your tax percentage: " << endl;
-        // cin >> tax_percentage;
-        // std::cout << "total salary : " << basic_salary * ( 100 - tax_percentage ) / 100 << endl;
-
-
-        // problem 15
-        // int original_price, discount_percentage;
-        // cout << "Please enter the price of your discount percentage: " << endl;
-        // cin >> original_price;
-        // cout << "Please enter the discount percentage: " << endl;
-        // cin >> discount_percentage;
-        // std::cout << "discout amount: " << discount_percentage * original_price / 100 << endl;
-        // std::cout << "final price: " << original_price - discount_percentage * original_price / 100 << endl;
+    // problem 14
+    // float a, b, c, d;
+    // cout << "please enter first weight: " << endl;
+    // cin >> a;
+    // cout << "please enter first price: " << endl;
+    // cin >> b;
+    // cout << "please enter second weight: " << endl;
+    // cin >> c;
+    // cout << "please enter second price: " << endl;
+    // cin >> d;
+    // if (a / b > c / d) {
+    //     cout << "package 2 has a better price"
+    //  }
+    // else if (a / b == c / d) {
+    //     cout << "two package have the same price"
+    //  }
+    // else {
+    //     cout << "package 1 has a better price"
+    //  }
 
 
-        // problem 16
-        // double total = 0;
-        // int totalCredits = 0;
-        // for(int i=0;i<5;i++) {
-        //     double grades;
-        //     cin>>grades;
-        //     int credits;
-        //     cin>>credits;
-        //     totalCredits += credits;
-        //     total+=credits*grades;
-        // }
-        // cout<<total/totalCredits;
-
-        // problem 17
-        // double final_price, initial_price;
-        // cout << "Enter the final price: " << endl;
-        // cin >> final_price;
-        // cout << "Enter the initial price: " << endl;
-        // cin >> initial_price;
-        // cout << "inflation rate: " << ((final_price - initial_price) / initial_price) * 100 << " %" << endl;
-
-
-        // problem 18
-        // int original_tuition_fee, scholarship_rate;
-        // cout << "Please enter your original tuition fee: " << endl;
-        // cin >> original_tuition_fee;
-        // cout << "Please enter your scholarship rate: " << endl;
-        // cin >> scholarship_rate;
-        // cout << "scholarship amount: " << scholarship_rate * original_tuition_fee / 100 << endl;
-        // cout << "final tuition fee: " << original_tuition_fee - (scholarship_rate * original_tuition_fee / 100) << endl;
+    // problem 15
+    // int a,b,c,d;
+    // cout << "Enter a number: " <<endl;
+    // cin >> a;
+    // b = a / 100;
+    // c = a / 10 - b * 10;
+    // d = a % 10;
+    //
+    // if (a > 99 and a < 1000) {
+    //     if (a == b + c * 10 + d * 100) {
+    //         cout << a << " is a palindrome" << endl;
+    //     }
+    //     else {
+    //         cout << a << " is not a palindrome" << endl;
+    //     }
+    // }
+    // else {
+    //     cout << "you should enter three-digit integer" << endl;
+    // }
 
 
-        // problem 19
-        // int principal_amount, rate_of_interest, time;
-        // cout << "Enter Principal amount: " << endl;
-        // cin >> principal_amount;
-        // cout << "Enter Rate of interest: " << endl;
-        // cin >> rate_of_interest;
-        // cout << "Enter Time: " << endl;
-        // cin >> time;
-        // cout << "the simple interest: " << principal_amount * time * rate_of_interest / 100 << endl;
+    // problem 16
+    // int x, y;
+    // cout << "Enter x: " <<endl;
+    // cin >> x;
+    // cout << "Enter y: " <<endl;
+    // cin >> y;
+    // if ((x * x + y * y) <= 100 ) {
+    //     cout << "point " << "(" << x << "," << y << ") " << " is in circle" << endl;
+    // }
+    // else {
+    //     cout << "point " << "(" << x << "," << y << ") " << "is not in circle" << endl;
+    // }
 
 
-        // problem 20
-        // double principal, annual_rate_of_interest;
-        // cout << "Enter Principal: " << endl;
-        // cin >> principal;
-        // cout << "Enter annual rate of interest: " << endl;
-        // cin >> annual_rate_of_interest;
-        // cout << "total amount after 2 yeas: " << principal * (1 + (annual_rate_of_interest / 100)) * (1 + (annual_rate_of_interest / 100)) << endl;
-        // cout << "compound interest after 2 years: " << principal * (1 + (annual_rate_of_interest / 100)) * (1 + (annual_rate_of_interest / 100)) - principal;
+    // problem 17
+    // float GPA;
+    // cout << "Enter the marks of your GPA: " << endl;
+    // cin >> GPA;
+    // if (GPA <= 4.5 and GPA >= 4) {
+    //     cout << "You got 80% scholarship" << endl;
+    // }
+    // else if (GPA >= 3.5 and GPA < 4) {
+    //     cout << "You got 60% scholarship" << endl;
+    // }
+    // else if (GPA >= 3 and GPA < 3.5) {
+    //     cout << "You got 50% scholarship" << endl;
+    // }
+    // else {
+    //     cout << "no scholarship" << endl;
+    // }
 
 
-
-
-        return 0;
+    return 0;
 
 }
-// TIP See CLion help at <a
-// href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>.
-//  Also, you can try interactive lessons for CLion by selecting
-//  'Help | Learn IDE Features' from the main menu.
+
+
+
+
